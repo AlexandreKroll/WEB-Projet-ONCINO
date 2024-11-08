@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+    <image data-lazy="true" src="IMGViewer/burg-jambon.jpg" alt="Description de l'image 1"/>
+    <image data-lazy="true" src="IMGViewer/canap-fromage.jpg" alt="Description de l'image 2"/>
+    <image data-lazy="true" src="IMGViewer/plateau-varie.webp" alt="Description de l'image 3"/>
+    <image data-lazy="true" src="IMGViewer/verrine-fruits.jpg" alt="Description de l'image 4"/>
+    <image data-lazy="true" src="IMGViewer/brochettes-fraicheur.jpg" alt="Description de l'image 5"/>
+    <image data-lazy="true" src="IMGViewer/mini-hotdog.webp" alt="Description de l'image 6"/>
+</images>

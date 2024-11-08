@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title></title> <!--Titre de la page-->
+        <link rel="stylesheet" type="text/css" href="CSS/form.css">
+        <link rel="stylesheet" type="text/css" href="CSS/mediaQueries.css">
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <link rel="stylesheet" type="text/css" href="CSS/polices.css">
+        <link rel="stylesheet" href="CSS/print.css" media="print">
+        <link rel="icon" href="IMGViewer/logo_page.ico" type="image/x-icon" />
+        
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+
+    <body id="connexion-body">
+        <div class="login-container">
+            <div class="login-box">
+                <!-- Partie gauche avec les champs de connexion -->
+                <div class="login-form">
+                    <h2>Connexion Administrateur</h2>
+                    <form action="login.php" method="POST">
+                        <label for="login">Login</label>
+                        <input type="text" id="login" name="login" required>
+                        
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                        
+                        <button type="submit">Se connecter</button>
+                        <a href="index.php">Retour page d'accueil</a>
+                    </form>
+                </div>
+        
+                <!-- Partie droite avec le logo du site -->
+                <div class="logo-section">
+                <p>
+                    <img src="IMGViewer/logo_page_blanc.png" alt="Logo du site">
+                </p>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

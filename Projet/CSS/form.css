@@ -1,0 +1,140 @@
+/* Gestion burger menu */
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Masquer la case à cocher (checkbox) */
+  #burger-checkbox {
+    display: none;
+  }
+
+  /* Lorsque la case est cochée, afficher le menu */
+  #burger-checkbox:checked~ul{
+    display: flex;
+  }
+
+/* Page de connexion */
+#connexion-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Prend toute la hauteur de la page */
+    margin: 0;
+    padding: 0;
+}
+
+
+.login-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.login-box {
+    display: flex;
+    width: 600px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.login-form {
+    padding: 40px;
+    width: 60%;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00b7ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.login-form button:hover {
+    background-color: #007bff;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo-section img {
+    max-width: 60%;
+    max-height: 60%;
+}
+
+#contact-map-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+#contact-form {
+    flex: 1;
+    max-width: 500px;
+}
+
+.map-container {
+    flex: 1;
+    max-width: 500px;
+    text-align: center;
+}
+
+#tab {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; /* Espacement autour de la section */
+}
+
+/* Centrage du tableau lui-même */
+#tab table {
+    width: 80%; /* Limite la largeur du tableau pour le centrage */
+    border-collapse: collapse; /* Supprime l'espace entre les cellules */
+    text-align: center;
+}
+
+#tab table th, #tab table td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Bordure autour des cellules */
+}
+
+
+

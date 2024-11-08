@@ -1,0 +1,52 @@
+/*Permet une impression écologique de la page WEB*/
+
+/* Masquer les éléments de navigation, les boutons, les footers */
+header, nav, footer, .menu, .sidebar, .button, .pagination {
+    display: none;
+}
+
+/* Masquer les arrière-plans et les éléments visuels inutiles */
+body, .container {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+
+body {
+    font-size: 12pt; /* Adapter la taille de la police pour l'impression */
+    line-height: 1.5; /* Améliorer la lisibilité */
+    color: #000; /* Utiliser des couleurs sombres pour une meilleure impression */
+    margin: 1cm; /* Marges adaptées pour l'impression */
+}
+
+/* Style des liens : afficher les URL entre parenthèses */
+a:after {
+    display: none;
+}
+
+/* Retirer les bordures autour des images */
+img {
+    border: none;
+}
+
+/* Éviter la coupure d'un bloc important */
+.produit-card, .content, .section {
+    page-break-inside: avoid;
+}
+
+/* Désactiver le zoom ou les animations */
+.produit-card {
+    transform: none;
+    box-shadow: none;
+}
+
+/* Texte aligné à gauche pour l'impression */
+p, h1, h2, h3, h4, h5, h6 {
+    text-align: left;
+}
+
+/* Espacement réduit pour les listes */
+ul, ol {
+    margin: 0;
+    padding-left: 1em;
+}

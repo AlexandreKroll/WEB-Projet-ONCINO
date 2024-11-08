@@ -1,0 +1,65 @@
+/* Écran de grande taille (ordinateur de bureau) */
+@media (min-width: 1200px) {
+    #image-viewer img {
+        width: 23%; /* Quatre images par ligne */
+    }
+  
+    header {
+      height: 45vh;
+    }
+  
+  }
+  
+  @media (max-width: 1199px) {
+  header {
+    height: 38vh;
+  }
+  }
+  
+  /* Petit écran (mobile) */
+  @media (max-width: 500px) {
+      nav ul {
+          display: none;
+          flex-direction: column;
+          width: 40%;
+          border-radius: 0px;
+      }
+  
+      .menu ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        width: 60%; /* Ajustez la largeur selon votre besoin */
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 0 0 10px 10px;
+    }
+
+      .burger {
+          display: block;
+      }
+  
+      nav ul li {
+          text-align: left;
+          padding: 1px;
+      }
+  
+      #image-viewer img {
+          width: 100%; /* Une image par ligne */
+      }
+  
+      header {
+        height: 30vh;
+      }
+
+      #contact-map-container {
+        flex-direction: column; /* Empile le formulaire et la carte sur petits écrans */
+        align-items: center;
+    }
+
+    #contact-form,.map-container {
+        max-width: 100%;
+    }
+  }
+
